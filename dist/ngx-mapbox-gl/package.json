@@ -26,6 +26,17 @@
     "rxjs": "^6.5.0"
   },
   "dependencies": {
-    "@mapbox/mapbox-gl-geocoder": "^3.0.1"
-  }
+    "@mapbox/mapbox-gl-geocoder": "^3.0.1",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/ngx-mapbox-gl.umd.js",
+  "module": "fesm5/ngx-mapbox-gl.js",
+  "es2015": "fesm2015/ngx-mapbox-gl.js",
+  "esm5": "esm5/ngx-mapbox-gl.js",
+  "esm2015": "esm2015/ngx-mapbox-gl.js",
+  "fesm5": "fesm5/ngx-mapbox-gl.js",
+  "fesm2015": "fesm2015/ngx-mapbox-gl.js",
+  "typings": "ngx-mapbox-gl.d.ts",
+  "metadata": "ngx-mapbox-gl.metadata.json",
+  "sideEffects": false
 }
